@@ -10,7 +10,6 @@ food = {
     version = version,
     packages = {
         {
-        https://github.com/Azure/acs-engine/releases/download/v0.21.1/acs-engine-v0.21.1-darwin-amd64.tar.gz
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/" .. owner .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "darwin-10.6-amd64",
