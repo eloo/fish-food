@@ -25,7 +25,7 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/" .. owner .. "/" .. name .. "/releases/download/v" .. version .. "/gitea-1.5.0-linux-amd64",
+            url = "https://github.com/" .. owner .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-linux-amd64",
             sha256 = "84b91628501cb4b5c3cc32e2166f4f90ad6a9a34dd714038917aa1bfd6da0bc4",
             resources = {
                 {
