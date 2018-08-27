@@ -12,7 +12,7 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/" .. owner .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-os-" .. arch ..".tar.gz",
+            url = "https://github.com/" .. owner .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-os-" .. arch .. ".tar.gz",
             sha256 = "ed0baa569e41206b66e0e4a5414a0923746a64102d2841fcadbec5215049a214",
             resources = {
                 {
