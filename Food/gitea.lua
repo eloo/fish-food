@@ -12,11 +12,11 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/" .. owner .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "darwin-10.6-amd64",
+            url = "https://github.com/" .. owner .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-darwin-10.6-amd64",
             sha256 = "ed0baa569e41206b66e0e4a5414a0923746a64102d2841fcadbec5215049a214",
             resources = {
                 {
-                    path = name,
+                    path = name .. "-" .. version .. "-darwin-10.6-amd64",
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -38,11 +38,11 @@ food = {
         {
             os = "linux",
             arch = "arm64",
-            url = "https://github.com/" .. owner .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-linux-arm64",
+            url = "https://github.com/" .. owner .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-linux-arm64",
             sha256 = "0dc836766f149af2624c66f012e93751698d3b26807722502d228481b4a5235b",
             resources = {
                 {
-                    path = name,
+                    path = name .. "-" .. version .. "-linux-arm64",
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -51,11 +51,11 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/" .. owner .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-windows-4.0-amd64.exe",
+            url = "https://github.com/" .. owner .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-windows-4.0-amd64.exe",
             sha256 = "6659082a1037daf440d2b67dfbf76366cc29f4f517ed201feb585781ddd7443b",
             resources = {
                 {
-                    path = name .. ".exe",
+                    path = name .. "-" .. version .. "-windows-4.0-amd64.exe",
                     installpath = "bin\\" .. name .. ".exe"
                 }
             }
