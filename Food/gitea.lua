@@ -4,6 +4,7 @@ local version = "1.5.0"
 
 food = {
     name = name,
+    owner = owner,
     description = "Git with a cup of tea, painless self-hosted git service",
     homepage = "https://gitea.io",
     version = version,
