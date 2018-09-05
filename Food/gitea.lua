@@ -1,6 +1,6 @@
 local owner = "go-gitea"
 local name = "gitea"
-local version = "1.5.0"
+local version = "1.5.1"
 
 food = {
     name = name,
