@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/" .. owner .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-darwin-10.6-amd64",
-            sha256 = "ed0baa569e41206b66e0e4a5414a0923746a64102d2841fcadbec5215049a214",
+            sha256 = "239427231118c161f8db96f484a7352c55edcbcc3df2c78dbb0e011d01860e71",
             resources = {
                 {
                     path = name .. "-" .. version .. "-darwin-10.6-amd64",
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/" .. owner .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-linux-amd64",
-            --sha256 = "84b91628501cb4b5c3cc32e2166f4f90ad6a9a34dd714038917aa1bfd6da0bc4",
+            sha256 = "ae4f43f73acbd0b61fbca78385a017d7aaed6f7d50f2bff5c3f057acfb46c71a",
             resources = {
                 {
                     path = name .. "-" .. version .. "-linux-amd64",
@@ -39,7 +39,7 @@ food = {
             os = "linux",
             arch = "arm64",
             url = "https://github.com/" .. owner .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-linux-arm64",
-            sha256 = "0dc836766f149af2624c66f012e93751698d3b26807722502d228481b4a5235b",
+            sha256 = "add3a182843cdba8ee2717ac7fa564e42d1cb2c4d376d776fedca95680c9d6e2",
             resources = {
                 {
                     path = name .. "-" .. version .. "-linux-arm64",
@@ -52,7 +52,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/" .. owner .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-windows-4.0-amd64.exe",
-            sha256 = "6659082a1037daf440d2b67dfbf76366cc29f4f517ed201feb585781ddd7443b",
+            sha256 = "f75f89f6e1c42a7d7c304c4195511f75ca48d2a0c69bd1c50a485ebaec171663",
             resources = {
                 {
                     path = name .. "-" .. version .. "-windows-4.0-amd64.exe",
