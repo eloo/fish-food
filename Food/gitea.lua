@@ -1,6 +1,6 @@
 local owner = "go-gitea"
 local name = "gitea"
-local version = "1.9.1"
+local version = "1.11.3"
 
 food = {
     name = name,
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/" .. owner .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-darwin-10.6-amd64",
-            sha256 = "b1de3de8d00299bddbd01c5623014c9c2d50610457076953dc44d3e15f07e784",
+            sha256 = "53648d86b7726d69ab965dea7b7a867d4e0290020f60171fbf16279cf2d2529c",
             resources = {
                 {
                     path = name .. "-" .. version .. "-darwin-10.6-amd64",
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/" .. owner .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-linux-amd64",
-            sha256 = "2afe85726227e0c742ae73bb40fc49c61cf7e32b9992edb0b439a6e866699fb7",
+            sha256 = "bd4d3d4f2d3998ebd1fecc1e8fc09971bc822aa8437a72b7131bee6b944f5d51",
             resources = {
                 {
                     path = name .. "-" .. version .. "-linux-amd64",
@@ -39,24 +39,12 @@ food = {
             os = "linux",
             arch = "arm64",
             url = "https://github.com/" .. owner .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-linux-arm64",
-            sha256 = "a2cf843271b98bb598d344214370dc4bfebeff0d9c081956fda87e557e6ec698",
+            sha256 = "8003a3d4af53a967bcb0947574d4b50eaa14002d14809dee2fefda4a0f0d91bf",
             resources = {
                 {
                     path = name .. "-" .. version .. "-linux-arm64",
                     installpath = "bin/" .. name,
                     executable = true
-                }
-            }
-        },
-        {
-            os = "windows",
-            arch = "amd64",
-            url = "https://github.com/" .. owner .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-windows-4.0-amd64.exe",
-            sha256 = "ed93f373e91be41ba28f4a322daf9f906937c02041870591277c2e4d21031355",
-            resources = {
-                {
-                    path = name .. "-" .. version .. "-     ",
-                    installpath = "bin\\" .. name .. ".exe"
                 }
             }
         }
